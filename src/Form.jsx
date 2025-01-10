@@ -30,8 +30,8 @@ export default function Form() {
         // İlk ekran
         <div className="all-in-container">
           <div className="hero">
-            <img className="mobile" src="src/assets/images/header.png" alt="" />
-            <img className="desktop" src="src/assets/images/hero-desktop.png" alt="" />
+            <img className="mobile" src="/images/header.png" alt="" />
+            <img className="desktop" src="/images/hero-desktop.png" alt="" />
           </div>
           <div className="main-container">
             <div className="main-header">
@@ -72,7 +72,7 @@ export default function Form() {
       ) : (
         // İkinci ekran
         <div className="success-container">
-          <img src="src/assets/images/thanks.svg" alt="" />
+          <img src="/images/hero-thanks.svg" alt="" />
           <h1>Thanks for subscribing!</h1>
           <p>
             A confirmation email has been sent to <strong>{formData.email}</strong>.
